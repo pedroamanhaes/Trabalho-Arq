@@ -11,4 +11,8 @@ public class Memoria{
     public void escrita(int dado, int endereco){
         this.dados[endereco] = dado;
     }
+
+    public int getTamanho() {
+        return this.dados.length;
+    }
 }
